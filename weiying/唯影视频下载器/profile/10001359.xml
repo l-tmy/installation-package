@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Profile DefID="10001359" DefName="SVCD PAL (4:3)" DeviceName="" Enabled="1" DefType="0" Comment="SVCD PAL (4:3) 480*576 (*.vob)" >
+    <Parameter FileExt=".vob" Format="svcd" ExporterName="FFExporter" AVInclude="0" AVNeed="0" AVStyle="0">
+        <AudioParam AudioCodecName="mp2" AudioBitrate="224000" Samplerate="44100" Channel="2" />
+        <VideoParam VideoCodecName="mpeg2video" Tolerance="4000" Width="480" Height="576" FrameRate="25.000000" VideoBitrate="2040" Aspect="4:3" />
+    </Parameter>
+    <ColItem>
+        <AudioCodecName DefID="0" DefValue="mp2" />
+        <AudioBitrate DefID="0" DefValue="224000" />
+        <SampleRate DefID="0" DefValue="44100" />
+        <Channel DefID="1" DefValue="1,2" />
+        <VideoCodecName DefID="0" DefValue="mpeg2video" />
+        <Size DefID="0" DefValue="480*576" />
+        <FrameRate DefID="2" DefValue="original,23.97,25,29.97,30" />
+        <VideoBitrate DefID="0" DefValue="2040" />
+    </ColItem>
+</Profile>

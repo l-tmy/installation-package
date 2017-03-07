@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Profile DefID="10001097" DefName="WAV - Waveform Audio(*.wav)" DefType="0" DeviceName="none" Enabled="1" Comment="Microsoft audio format, with lossless sound quality and large file size">
+    <Parameter FileExt=".wav" AVInclude="1" AVNeed="0" AVStyle="0" ExporterName="FFExporter" Format="wav">
+        <AudioParam AudioCodecName="pcm_s16le" AudioBitrate="128000" Samplerate="44100" Channel="2" />
+        <ParameterEx />
+    </Parameter>
+    <ColItem>
+        <AudioBitrate DefID="0" DefValue="128000,256000,512000" />
+        <SampleRate DefID="2" DefValue="22050,32000,44100,48000" />
+        <Channel DefID="1" DefValue="1,2" />
+        <AudioCodecName DefID="0" DefValue="pcm_s16le" />
+    </ColItem>
+</Profile>

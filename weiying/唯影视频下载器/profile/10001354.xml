@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Profile DefID="10001354" DefName="YUY2 (*.avi)" DeviceName="" Enabled="0" DefType="0" Comment="Raw Video with YUY2 format" >
+    <Parameter FileExt=".avi" Format="avi" ExporterName="FFExporter" AVInclude="0" AVNeed="0" AVStyle="3">
+        <AudioParam AudioCodecName="pcm_s16le" AudioBitrate="256000" Samplerate="48000" Channel="2" />
+        <VideoParam VideoCodecName="rawvideo" Tolerance="4000" Width="0" Height="0" FrameRate="0.000000" VideoBitrate="1500" FourCC="YUY2" />
+        <ParameterEx pix_fmt="yuy2" />
+    </Parameter>
+    <ColItem>
+        <AudioCodecName DefID="1" DefValue="mp3,pcm_s16le" />
+        <AudioBitrate DefID="6" DefValue="32000,64000,96000,128000,160000,192000,256000,320000" />
+        <SampleRate DefID="3" DefValue="22050,32000,44100,48000" />
+        <Channel DefID="1" DefValue="1,2" />
+        <VideoCodecName DefID="0" DefValue="rawvideo" />
+        <Size DefID="0" DefValue="original,1280*720,176*144,1920*1080,320*240,352*288,640*480,720*576,800*600" />
+        <FrameRate DefID="0" DefValue="original,20,23.97,24,25,29.97,30" />
+        <VideoBitrate DefID="3" DefValue="1000,1200,128,1500,160,2000,256,700,768,96" />
+        <FourCC DefID="0" DefValue="YUY2" />
+    </ColItem>
+</Profile>

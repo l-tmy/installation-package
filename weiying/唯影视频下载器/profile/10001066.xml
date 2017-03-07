@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Profile DefID="10001066" DefName="3rd Generation Partnership Project 2 - 3GPP(*.3g2)" DefType="0" DeviceName="none" Enabled="1" Comment="3GPP(3rd Generation Partnership Project 2)Multimedia format">
+    <Parameter FileExt=".3g2" AVInclude="0" AVNeed="0" AVStyle="0" ExporterName="FFExporter" Format="3g2">
+        <VideoParam VideoCodecName="xvid" FourCC="" Tolerance="4000" Width="176" Height="144" FrameRate="15.000000" VideoBitrate="128" />
+        <AudioParam AudioCodecName="amr_nb" AudioBitrate="12200" Samplerate="8000" Channel="1" />
+        <ParameterEx />
+    </Parameter>
+    <ColItem>
+        <Size DefID="3" DefValue="original,128*96,160*120,176*144,288*224,320*240,480*368" />
+        <FrameRate DefID="2" DefValue="original,12,15,20,23.97,24,25,29.97,30" />
+        <VideoBitrate DefID="0" DefValue="128,256,384,512,640,768,900" />
+        <AudioBitrate DefID="7" DefValue="4750,5150,5900,6700,7400,7950,10200,12200" />
+        <SampleRate DefID="0" DefValue="8000" />
+        <Channel DefID="0" DefValue="1" />
+        <AudioCodecName DefID="0" DefValue="amr_nb" />
+        <VideoCodecName DefID="0" DefValue="xvid,h264" />
+    </ColItem>
+</Profile>

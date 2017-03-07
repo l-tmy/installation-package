@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Profile DefID="10001211" DefName="BlackBerry 8830(*.avi)" DefType="0" DeviceName="Blackberry" Enabled="1" Comment="AVI Video profile optimized for BlackBerry 8830">
+    <Parameter FileExt=".avi" AVInclude="0" AVNeed="0" AVStyle="0" ExporterName="FFExporter" Format="avi">
+        <VideoParam VideoCodecName="h263" FourCC="" Tolerance="4000" Width="176" Height="144" FrameRate="15.000000" VideoBitrate="256" />
+        <AudioParam AudioCodecName="mp3" AudioBitrate="192000" Samplerate="44100" Channel="2" />
+        <ParameterEx />
+    </Parameter>
+    <ColItem>
+        <Size DefID="1" DefValue="128*96,176*144,352*288" />
+        <FrameRate DefID="0" DefValue="15" />
+        <VideoBitrate DefID="2" DefValue="128,160,256,384" />
+        <AudioBitrate DefID="1" DefValue="128000,192000,320000,64000,96000" />
+        <SampleRate DefID="1" DefValue="22050,44100" />
+        <Channel DefID="1" DefValue="1,2" />
+        <AudioCodecName DefID="0" DefValue="mp3" />
+        <VideoCodecName DefID="0" DefValue="h263" />
+        <FourCC DefID="0" DefValue="" />
+    </ColItem>
+</Profile>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Profile DefID="10001361" DefName="VCD PAL (16:9)" DeviceName="" Enabled="1" DefType="0" Comment="VCD PAL (16:9) 352*288 (*.mpg)">
+    <Parameter FileExt=".mpg" Format="vcd" ExporterName="FFExporter" AVInclude="0" AVNeed="0" AVStyle="0">
+        <AudioParam AudioCodecName="mp2" AudioBitrate="224000" Samplerate="44100" Channel="2" />
+        <VideoParam VideoCodecName="mpeg1video" Tolerance="4000" Width="352" Height="288" FrameRate="25.000000" VideoBitrate="1150" Aspect="16:9" />
+    </Parameter>
+    <ColItem>
+        <AudioCodecName DefID="0" DefValue="mp2" />
+        <AudioBitrate DefID="0" DefValue="224000" />
+        <SampleRate DefID="0" DefValue="44100" />
+        <Channel DefID="1" DefValue="1,2" />
+        <VideoCodecName DefID="0" DefValue="mpeg1video" />
+        <Size DefID="0" DefValue="352*288" />
+        <FrameRate DefID="2" DefValue="original,23.97,25,29.97,30" />
+        <VideoBitrate DefID="0" DefValue="1150" />
+    </ColItem>
+</Profile>

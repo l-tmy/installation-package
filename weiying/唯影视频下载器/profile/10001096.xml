@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Profile DefID="10001096" DefName="WMA - Windows Media Audio(*.wma)" DefType="0" DeviceName="none" Enabled="0" Comment="Stands for Windows Media Audio,popular audio format with low bitrate and fine sound quality">
+    <Parameter FileExt=".wma" AVInclude="1" AVNeed="0" AVStyle="0" ExporterName="FFExporter" Format="asf">
+        <AudioParam AudioCodecName="wmav1" AudioBitrate="128000" Samplerate="44100" Channel="2" />
+        <ParameterEx />
+    </Parameter>
+    <ColItem>
+        <AudioBitrate DefID="2" DefValue="64000,96000,128000,160000,192000,256000" />
+        <SampleRate DefID="2" DefValue="22050,32000,44100,48000" />
+        <Channel DefID="1" DefValue="1,2" />
+        <AudioCodecName DefID="0" DefValue="wmav1,wmav2" />
+    </ColItem>
+</Profile>

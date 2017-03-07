@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Profile DefID="10001100" DefName="MKA(Matroska) Audio(*.mka)" DefType="0" DeviceName="none" Enabled="1" Comment="Audio format,it is used MKV audio format">
+    <Parameter FileExt=".mka" AVInclude="1" AVNeed="0" AVStyle="0" ExporterName="FFExporter" Format="matroska">
+        <AudioParam AudioCodecName="aac" AudioBitrate="128000" Samplerate="44100" Channel="2" />
+        <ParameterEx />
+    </Parameter>
+    <ColItem>
+        <AudioBitrate DefID="0" DefValue="128000,160000,192000,256000,320000,384000,512000,64000,96000,448000,576000" />
+        <SampleRate DefID="2" DefValue="22050,32000,44100,48000" />
+        <Channel DefID="1" DefValue="1,2,6" />
+        <AudioCodecName DefID="0" DefValue="aac,ac3,mp3" />
+    </ColItem>
+</Profile>

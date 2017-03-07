@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Profile DefID="10001070" DefName="MPEG-1 Movie - PAL(*.mpg)" DefType="0" DeviceName="none" Enabled="1">
+    <Parameter FileExt=".mpg" AVInclude="0" AVNeed="0" AVStyle="0" ExporterName="FFExporter" Format="mpeg">
+        <VideoParam VideoCodecName="mpeg1video" FourCC="" Tolerance="4000" Width="352" Height="288" FrameRate="25.000000" VideoBitrate="1500" Aspect="0.0" />
+        <AudioParam AudioCodecName="mp2" AudioBitrate="224000" Samplerate="44100" Channel="2" />
+        <ParameterEx />
+    </Parameter>
+    <ColItem>
+        <Size DefID="1" DefValue="original,352*288" />
+        <FrameRate DefID="0" DefValue="25" />
+        <VideoBitrate DefID="0" DefValue="1500,2000,2500" />
+        <Aspect DefID="0" DefValue="original" />
+        <AudioBitrate DefID="4" DefValue="64000,96000,128000,160000,224000" />
+        <SampleRate DefID="0" DefValue="44100,48000" />
+        <Channel DefID="0" DefValue="2" />
+        <AudioCodecName DefID="0" DefValue="mp2" />
+        <VideoCodecName DefID="0" DefValue="mpeg1video" />
+    </ColItem>
+</Profile>

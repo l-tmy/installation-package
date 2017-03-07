@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Profile DefID="10001380" DefName="Wii M4A Audio(*.m4a)" DeviceName="none" Enabled="1" DefType="0"  Comment="Wii m4a audio format">
+    <Parameter FileExt=".m4a" Format="mp4" ExporterName="FFExporter" AVInclude="1" AVNeed="0" AVStyle="0">
+        <AudioParam AudioCodecName="aac" AudioBitrate="128000" Samplerate="44100" Channel="2" />
+    </Parameter>
+    <ColItem>
+        <AudioCodecName DefID="0" DefValue="aac" />
+        <AudioBitrate DefID="0" DefValue="128000,160000,192000,256000,64000,80000,96000" />
+        <SampleRate DefID="2" DefValue="22050,32000,44100,48000" />
+        <Channel DefID="1" DefValue="1,2,6" />
+    </ColItem>
+</Profile>

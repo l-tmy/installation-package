@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Profile DefID="10001101" DefName="SUN AU Format(*.au)" DefType="0" DeviceName="none" Enabled="0" Comment="Digital audio format on Unix OS">
+    <Parameter FileExt=".au" AVInclude="1" AVNeed="0" AVStyle="0" ExporterName="FFExporter" Format="au">
+        <AudioParam AudioCodecName="pcm_s16be" AudioBitrate="192000" Samplerate="48000" Channel="2" />
+        <ParameterEx />
+    </Parameter>
+    <ColItem>
+        <AudioBitrate DefID="4" DefValue="64000,96000,128000,160000,192000,256000" />
+        <SampleRate DefID="3" DefValue="22050,32000,44100,48000" />
+        <Channel DefID="1" DefValue="1,2" />
+        <AudioCodecName DefID="0" DefValue="pcm_s16be" />
+    </ColItem>
+</Profile>

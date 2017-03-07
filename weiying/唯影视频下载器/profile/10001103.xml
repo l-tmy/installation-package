@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Profile DefID="10001103" DefName="FLAC-Free Lossless Audio Codec(*.flac)" DefType="0" DeviceName="none" Enabled="1" Comment="A free, open source codec for lossless audio compression and decompression">
+    <Parameter FileExt=".flac" AVInclude="1" AVNeed="0" AVStyle="0" ExporterName="FFExporter" Format="flac">
+        <AudioParam AudioCodecName="flac" AudioBitrate="192000" Samplerate="48000" Channel="2" />
+        <ParameterEx />
+    </Parameter>
+    <ColItem>
+        <AudioBitrate DefID="4" DefValue="64000,96000,128000,160000,192000,256000" />
+        <SampleRate DefID="3" DefValue="22050,32000,44100,48000" />
+        <Channel DefID="1" DefValue="1,2" />
+        <AudioCodecName DefID="0" DefValue="flac" />
+    </ColItem>
+</Profile>

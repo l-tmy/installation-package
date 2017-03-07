@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Profile DefID="10001058" DefName="Zune 2 (640*480) MPEG-4 Video(*.mp4)" DefType="0" DeviceName="Zune" Enabled="1" Comment="MPEG-4 Video profile optimized for Microsoft Zune 2(640*480)">
+    <Parameter FileExt=".mp4" AVInclude="0" AVNeed="0" AVStyle="0" ExporterName="FFExporter" Format="mp4">
+        <VideoParam VideoCodecName="h264" FourCC="" Tolerance="4000" Width="640" Height="480" FrameRate="30.000000" VideoBitrate="1500" />
+        <AudioParam AudioCodecName="aac" AudioBitrate="96000" Samplerate="44100" Channel="2" />
+        <ParameterEx />
+    </Parameter>
+    <ColItem>
+        <Size DefID="11" DefValue="original,160*108,272*208,288*224,304*240,320*240,336*240,400*304,432*336,464*352,480*368,640*480,720*480,720*576" />
+        <FrameRate DefID="8" DefValue="original,12,15,20,23.97,24,25,29.97,30" />
+        <VideoBitrate DefID="6" DefValue="256,384,512,640,768,900,1500,2000,2500,3000" />
+        <AudioBitrate DefID="1" DefValue="64000,96000,128000,160000" />
+        <SampleRate DefID="2" DefValue="22050,32000,44100,48000" />
+        <Channel DefID="1" DefValue="1,2" />
+        <AudioCodecName DefID="0" DefValue="aac" />
+        <VideoCodecName DefID="0" DefValue="xvid,h264" />
+    </ColItem>
+</Profile>

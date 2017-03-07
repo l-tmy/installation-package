@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Profile DefID="10001323" DefName="3GPP2 ( Xvid / AAC)(*.3g2)" DeviceName="" Enabled="0" DefType="0" Comment="3GPP2 MPEG-4 Video">
+    <Parameter FileExt=".3g2" Format="3g2" ExporterName="FFExporter" AVInclude="0" AVNeed="0" AVStyle="0">
+        <AudioParam AudioCodecName="aac" AudioBitrate="64000" Samplerate="44100" Channel="2" />
+        <VideoParam VideoCodecName="xvid" Tolerance="4000" Width="176" Height="144" FrameRate="15.000000" VideoBitrate="2" />
+    </Parameter>
+    <ColItem>
+        <AudioCodecName DefID="0" DefValue="aac" />
+        <AudioBitrate DefID="2" DefValue="128000,32000,64000,96000" />
+        <SampleRate DefID="2" DefValue="11050,22050,44100,48000" />
+        <Channel DefID="1" DefValue="1,2,6" />
+        <VideoCodecName DefID="1" DefValue="h264,xvid" />
+        <Size DefID="1" DefValue="128*96,176*144,352*288" />
+        <FrameRate DefID="1" DefValue="12,15,20,23.97,24,25,29.97,30" />
+        <VideoBitrate DefID="2" DefValue="original,1,2,3,128,160,256,384,512,640,768,900,96" />
+    </ColItem>
+</Profile>

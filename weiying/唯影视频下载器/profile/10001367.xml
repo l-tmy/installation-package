@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Profile DefID="10001367" DefName="DVD NTSC (16:9)" DeviceName="" Enabled="1" DefType="0" Comment="DVD NTSC (16:9) 720*480 (*.vob)">
+    <Parameter FileExt=".vob" Format="dvd" ExporterName="FFExporter" AVInclude="0" AVNeed="0" AVStyle="0">
+        <AudioParam AudioCodecName="ac3" AudioBitrate="448000" Samplerate="48000" Channel="2" />
+        <VideoParam VideoCodecName="mpeg2video" Tolerance="4000" Width="720" Height="480" FrameRate="29.970000" VideoBitrate="6000" Aspect="16:9" />
+    </Parameter>
+    <ColItem>
+        <AudioCodecName DefID="0" DefValue="ac3" />
+        <AudioBitrate DefID="0" DefValue="448000" />
+        <SampleRate DefID="0" DefValue="48000" />
+        <Channel DefID="1" DefValue="1,2,6" />
+        <VideoCodecName DefID="0" DefValue="mpeg2video" />
+        <Size DefID="3" DefValue="1280*720,1920*1080,640*480,720*480,720*576" />
+        <FrameRate DefID="3" DefValue="original,23.97,25,29.97,30" />
+        <VideoBitrate DefID="1" DefValue="original,6000" />
+    </ColItem>
+</Profile>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Profile DefID="10001321" DefName="3GPP ( H.263 / AMR)(*.3gp)" DeviceName="" Enabled="0" DefType="0" Comment="3GPP h.263 Video">
+    <Parameter FileExt=".3gp" Format="3gp" ExporterName="FFExporter" AVInclude="0" AVNeed="0" AVStyle="0">
+        <AudioParam AudioCodecName="amr_nb" AudioBitrate="12200" Samplerate="8000" Channel="1" />
+        <VideoParam VideoCodecName="h263" Tolerance="4000" Width="176" Height="144" FrameRate="15.000000" VideoBitrate="2" />
+    </Parameter>
+    <ColItem>
+        <AudioCodecName DefID="0" DefValue="amr_nb" />
+        <AudioBitrate DefID="0" DefValue="12200" />
+        <SampleRate DefID="0" DefValue="8000" />
+        <Channel DefID="0" DefValue="1" />
+        <VideoCodecName DefID="0" DefValue="h263" />
+        <Size DefID="1" DefValue="128*96,176*144,352*288" />
+        <FrameRate DefID="3" DefValue="original,12,14.98,15,20,23.97" />
+        <VideoBitrate DefID="2" DefValue="original,1,2,3,128,160,256,96" />
+    </ColItem>
+</Profile>

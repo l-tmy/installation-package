@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Profile DefID="10001381" DefName="Wii MP3 Audio(*.mp3)" DeviceName="none" Enabled="1" DefType="0" Comment="Wii mp3 audio format">
+    <Parameter FileExt=".mp3" Format="mp3" ExporterName="FFExporter" AVInclude="1" AVNeed="0" AVStyle="0">
+        <AudioParam AudioCodecName="mp3" AudioBitrate="192000" Samplerate="44100" Channel="2" />
+    </Parameter>
+    <ColItem>
+        <AudioCodecName DefID="0" DefValue="mp3" />
+        <AudioBitrate DefID="2" DefValue="128000,160000,192000,256000,320000,64000,96000" />
+        <SampleRate DefID="2" DefValue="22050,32000,44100,48000" />
+        <Channel DefID="1" DefValue="1,2" />
+    </ColItem>
+</Profile>

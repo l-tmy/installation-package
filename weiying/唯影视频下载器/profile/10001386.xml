@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Profile DefID="10001386" DefName="H.264 AC3 HD Video(*.mov)" DefType="0" DeviceName="none" Enabled="1" Comment="Apple&apos;s QuickTime Video AC3 Audio with HD Standards">
+    <Parameter FileExt=".mov" AVInclude="0" AVNeed="0" AVStyle="0" ExporterName="FFExporter" Format="mov">
+        <VideoParam VideoCodecName="h264" FourCC="" Tolerance="4000" Width="1920" Height="1080" FrameRate="30.000000" VideoBitrate="2" />
+        <AudioParam AudioCodecName="ac3" AudioBitrate="320000" Samplerate="48000" Channel="6" />
+        <ParameterEx />
+    </Parameter>
+    <ColItem>
+        <Size DefID="3" DefValue="original,1280*720,1440*1080,1920*1080" />
+        <FrameRate DefID="8" DefValue="original,12,15,20,23.97,24,25,29.97,30" />
+        <VideoBitrate DefID="2" DefValue="original,1,2,3,4000,6000,8000,10000,12000" />
+        <AudioBitrate DefID="3" DefValue="128000,192000,256000,320000,384000,448000,512000,576000" />
+        <SampleRate DefID="3" DefValue="22050,32000,44100,48000" />
+        <Channel DefID="1" DefValue="2,6" />
+        <AudioCodecName DefID="0" DefValue="ac3" />
+        <VideoCodecName DefID="0" DefValue="h264" />
+    </ColItem>
+</Profile>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Profile DefID="10001032" DefName="BlackBerry Storm series(*.wmv)" DefType="0" DeviceName="Blackberry" Enabled="1" Comment="WMV Video profile optimized for BlackBerry Storm series">
+    <Parameter FileExt=".wmv" AVInclude="0" AVNeed="0" AVStyle="0" ExporterName="FFExporter" Format="asf">
+        <VideoParam VideoCodecName="wmv3" FourCC="" Tolerance="4000" Width="480" Height="360" FrameRate="15.000000" VideoBitrate="256" />
+        <AudioParam AudioCodecName="wmav2" AudioBitrate="96000" Samplerate="44100" Channel="2" />
+        <ParameterEx />
+    </Parameter>
+    <ColItem>
+        <Size DefID="4" DefValue="original,128*96,176*144,352*288,480*360" />
+        <FrameRate DefID="0" DefValue="15,24" />
+        <VideoBitrate DefID="2" DefValue="128,160,256,384" />
+        <AudioBitrate DefID="1" DefValue="64000,96000,128000" />
+        <SampleRate DefID="1" DefValue="22050,44100" />
+        <Channel DefID="1" DefValue="1,2" />
+        <AudioCodecName DefID="0" DefValue="wmav1,wmav2" />
+        <VideoCodecName DefID="0" DefValue="wmv1,wmv2,wmv3" />
+    </ColItem>
+</Profile>

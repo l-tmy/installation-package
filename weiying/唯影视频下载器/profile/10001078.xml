@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Profile DefID="10001078" DefName="DVD-Video Format - NTSC(*.vob)" DefType="0" DeviceName="none" Enabled="1" Comment="DVD Video profile optimized for television system of NTSC">
+    <Parameter FileExt=".vob" AVInclude="0" AVNeed="0" AVStyle="0" ExporterName="FFExporter" Format="dvd">
+        <VideoParam VideoCodecName="mpeg2video" FourCC="" Tolerance="4000" Width="720" Height="480" FrameRate="29.970000" VideoBitrate="2" />
+        <AudioParam AudioCodecName="mp2" AudioBitrate="96000" Samplerate="48000" Channel="2" />
+        <ParameterEx />
+    </Parameter>
+    <ColItem>
+        <Size DefID="1" DefValue="original,720*480" />
+        <FrameRate DefID="0" DefValue="29.97" />
+        <VideoBitrate DefID="2" DefValue="original,1,2,3,1500,2000,2500,4000,5000,6000" />
+        <AudioBitrate DefID="3" DefValue="128000,160000,64000,96000,448000" />
+        <SampleRate DefID="0" DefValue="48000" />
+        <Channel DefID="0" DefValue="2" />
+        <AudioCodecName DefID="0" DefValue="mp2,ac3" />
+        <VideoCodecName DefID="0" DefValue="mpeg2video" />
+    </ColItem>
+</Profile>

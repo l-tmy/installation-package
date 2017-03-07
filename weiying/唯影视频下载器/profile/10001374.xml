@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Profile DefID="10001374" DefName="DV AVI NTSC (*.avi)" DeviceName="none" Enabled="1" DefType="0" Comment="DV Video NTSC 720*480" >
+    <Parameter FileExt=".avi" Format="avi" ExporterName="FFExporter" AVInclude="0" AVNeed="0" AVStyle="0">
+        <AudioParam AudioCodecName="pcm_s16le" AudioBitrate="0" Samplerate="48000" Channel="2" />
+        <VideoParam VideoCodecName="dvvideo" Tolerance="4000" Width="720" Height="480" FrameRate="29.970000" VideoBitrate="6000" />
+    </Parameter>
+    <ColItem>
+        <AudioCodecName DefID="0" DefValue="pcm_s16le" />
+        <AudioBitrate DefID="0" DefValue="0" />
+        <SampleRate DefID="0" DefValue="48000" />
+        <Channel DefID="1" DefValue="1,2" />
+        <VideoCodecName DefID="0" DefValue="dvvideo" />
+        <Size DefID="0" DefValue="720*480" />
+        <FrameRate DefID="0" DefValue="29.97" />
+        <VideoBitrate DefID="1" DefValue="original,6000" />
+    </ColItem>
+</Profile>

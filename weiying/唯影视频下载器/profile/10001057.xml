@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Profile DefID="10001057" DefName="Zune 2 Video - Windows Media Video(*.wmv)" DefType="0" DeviceName="Zune" Enabled="1" Comment="Windows Media Video format optimized for micorsoft Zune 2">
+    <Parameter FileExt=".wmv" AVInclude="0" AVNeed="0" AVStyle="0" ExporterName="FFExporter" Format="asf">
+        <VideoParam VideoCodecName="wmv3" FourCC="" Tolerance="4000" Width="320" Height="240" FrameRate="25.000000" VideoBitrate="900" />
+        <AudioParam AudioCodecName="wmav2" AudioBitrate="160000" Samplerate="44100" Channel="2" />
+        <ParameterEx />
+    </Parameter>
+    <ColItem>
+        <Size DefID="5" DefValue="original,160*108,272*208,288*224,304*240,320*240,640*480,720*480,720*576" />
+        <FrameRate DefID="4" DefValue="original,15,20,24,25,30" />
+        <VideoBitrate DefID="5" DefValue="256,384,512,640,768,900,1500,2000,2500,3000" />
+        <AudioBitrate DefID="3" DefValue="64000,96000,128000,160000,256000,320000" />
+        <SampleRate DefID="2" DefValue="22050,32000,44100,48000" />
+        <Channel DefID="1" DefValue="1,2" />
+        <AudioCodecName DefID="0" DefValue="wmav1,wmav2" />
+        <VideoCodecName DefID="0" DefValue="wmv1,wmv2,wmv3" />
+    </ColItem>
+</Profile>

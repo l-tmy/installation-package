@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Profile DefID="10001072" DefName="MPEG-2 Movie - NTSC(*.mpg)" DefType="0" DeviceName="none" Enabled="1">
+    <Parameter FileExt=".mpg" AVInclude="0" AVNeed="0" AVStyle="0" ExporterName="FFExporter" Format="vob">
+        <VideoParam VideoCodecName="mpeg2video" FourCC="" Tolerance="4000" Width="720" Height="480" FrameRate="29.970000" VideoBitrate="4000" Aspect="0.0" />
+        <AudioParam AudioCodecName="mp2" AudioBitrate="128000" Samplerate="48000" Channel="2" />
+        <ParameterEx />
+    </Parameter>
+    <ColItem>
+        <Size DefID="2" DefValue="original,352*240,720*480" />
+        <FrameRate DefID="0" DefValue="29.97" />
+        <VideoBitrate DefID="3" DefValue="1500,2000,2500,4000,8000,9800" />
+        <Aspect DefID="0" DefValue="original" />
+        <AudioBitrate DefID="2" DefValue="64000,96000,128000,160000,256000,384000" />
+        <SampleRate DefID="1" DefValue="44100,48000" />
+        <Channel DefID="0" DefValue="2" />
+        <AudioCodecName DefID="0" DefValue="mp2,ac3" />
+        <VideoCodecName DefID="0" DefValue="mpeg2video" />
+    </ColItem>
+</Profile>

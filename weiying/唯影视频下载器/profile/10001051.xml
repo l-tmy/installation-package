@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Profile DefID="10001051" DefName="ZEN Player MPEG-2 Video (*.mpg)" DefType="0" DeviceName="" Enabled="1" Comment="MPEG-2 Video profile optimized for some Creative Zen Players">
+    <Parameter FileExt=".mpg" AVInclude="0" AVNeed="0" AVStyle="0" ExporterName="FFExporter" Format="vob">
+        <VideoParam VideoCodecName="mpeg2video" FourCC="" Tolerance="4000" Width="352" Height="288" FrameRate="25.000000" VideoBitrate="1500" />
+        <AudioParam AudioCodecName="mp2" AudioBitrate="64000" Samplerate="44100" Channel="2" />
+        <ParameterEx />
+    </Parameter>
+    <ColItem>
+        <Size DefID="2" DefValue="original,352*240,352*288" />
+        <FrameRate DefID="1" DefValue="original,25" />
+        <VideoBitrate DefID="0" DefValue="1500" />
+        <AudioBitrate DefID="0" DefValue="64000,96000,128000,160000" />
+        <SampleRate DefID="2" DefValue="22050,32000,44100,48000" />
+        <Channel DefID="1" DefValue="1,2" />
+        <AudioCodecName DefID="0" DefValue="mp2" />
+        <VideoCodecName DefID="0" DefValue="mpeg2video" />
+    </ColItem>
+</Profile>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Profile DefID="10001320" DefName="H.264 Video(*.mp4)" DeviceName="" Enabled="0" DefType="0" Comment="H.264 Video configure">
+    <Parameter FileExt=".mp4" Format="mp4" ExporterName="FFExporter" AVInclude="0" AVNeed="0" AVStyle="0">
+        <AudioParam AudioCodecName="aac" AudioBitrate="96000" Samplerate="48000" Channel="2" />
+        <VideoParam VideoCodecName="h264" Tolerance="4000" Width="0" Height="0" FrameRate="29.970000" VideoBitrate="2" />
+    </Parameter>
+    <ColItem>
+        <AudioCodecName DefID="0" DefValue="aac" />
+        <AudioBitrate DefID="3" DefValue="128000,160000,64000,96000" />
+        <SampleRate DefID="3" DefValue="22050,32000,44100,48000" />
+        <Channel DefID="1" DefValue="1,2,6" />
+        <VideoCodecName DefID="0" DefValue="h264" />
+        <Size DefID="0" DefValue="original,1480*1152,1280*720,1440*1080,1920*1080,1920*1280,320*240,352*240,352*288,640*480,720*480,720*576" />
+        <FrameRate DefID="3" DefValue="23.97,24,25,29.97,30" />
+        <VideoBitrate DefID="2" DefValue="original,1,2,3,1500,2000,2500,256,384,512,640,768,900" />
+    </ColItem>
+</Profile>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Profile DefID="10001372" DefName="Zune HD MP4 Video(*.mp4)" DeviceName="none" Enabled="1" DefType="0" Comment="MP4 Video for Zune HD">
+    <Parameter FileExt=".mp4" Format="mp4" ExporterName="FFExporter" AVInclude="0" AVNeed="0" AVStyle="0">
+        <AudioParam AudioCodecName="aac" AudioBitrate="320000" Samplerate="44100" Channel="2" />
+        <VideoParam VideoCodecName="h264" Tolerance="4000" Width="1280" Height="720" FrameRate="30.000000" VideoBitrate="2" />
+    </Parameter>
+    <ColItem>
+        <AudioCodecName DefID="0" DefValue="aac" />
+        <AudioBitrate DefID="2" DefValue="128000,160000,320000,64000,96000" />
+        <SampleRate DefID="2" DefValue="22050,32000,44100,48000" />
+        <Channel DefID="1" DefValue="1,2,6" />
+        <VideoCodecName DefID="0" DefValue="h264" />
+        <Size DefID="1" DefValue="original,1280*720,720*480,720*576" />
+        <FrameRate DefID="4" DefValue="original,20,25,29.97,30" />
+        <VideoBitrate DefID="2" DefValue="original,1,2,3,4000,6000,8000,10000,12000" />
+    </ColItem>
+</Profile>

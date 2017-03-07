@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Profile DefID="10001226" DefName="Pocket PC(*.avi)" DefType="0" DeviceName="none" Enabled="1" Comment="AVI Video profile optimized for Pocket PC">
+    <Parameter FileExt=".avi" AVInclude="0" AVNeed="0" AVStyle="0" Format="avi" ExporterName="FFExporter">
+        <VideoParam VideoCodecName="xvid" FourCC="XVID" Tolerance="4000" Width="320" Height="172" FrameRate="14.980000" VideoBitrate="128" />
+        <AudioParam AudioCodecName="mp3" AudioBitrate="192000" Samplerate="22050" Channel="2" />
+        <ParameterEx />
+    </Parameter>
+    <ColItem>
+        <Size DefID="1" DefValue="original,320*172" />
+        <FrameRate DefID="0" DefValue="14.98" />
+        <VideoBitrate DefID="1" DefValue="64,128,192" />
+        <AudioBitrate DefID="1" DefValue="128000,192000,320000,64000,96000" />
+        <SampleRate DefID="1" DefValue="11025,22050" />
+        <Channel DefID="1" DefValue="1,2" />
+        <AudioCodecName DefID="0" DefValue="mp3" />
+        <VideoCodecName DefID="0" DefValue="xvid,mjpeg,msmpeg4" />
+        <FourCC DefID="0" DefValue="XVID,MJPG,MP43" />
+    </ColItem>
+</Profile>

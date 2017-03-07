@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Profile DefID="10001370" DefName="iPhone Ringtones (*.m4r)" DeviceName="iPhone" Enabled="1" DefType="0" Comment="iPhone Ringtones AAC Audio">
+    <Parameter FileExt=".m4r" Format="ipod" ExporterName="FFExporter" AVInclude="1" AVNeed="0" AVStyle="0">
+        <AudioParam AudioCodecName="aac" AudioBitrate="64000" Samplerate="48000" Channel="2" />
+    </Parameter>
+    <ColItem>
+        <AudioCodecName DefID="0" DefValue="aac" />
+        <AudioBitrate DefID="0" DefValue="64000,80000,96000,128000,160000" />
+        <SampleRate DefID="3" DefValue="22050,32000,44100,48000" />
+        <Channel DefID="1" DefValue="1,2,6" />
+    </ColItem>
+</Profile>

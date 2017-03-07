@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Profile DefID="10001324" DefName="MP2 Audio(*.mp2)" DeviceName="" Enabled="0" DefType="0" Comment="MPEG-1 Layer2 Audio">
+    <Parameter FileExt=".mp2" Format="mp2" ExporterName="FFExporter" AVInclude="1" AVNeed="0" AVStyle="0">
+        <AudioParam AudioCodecName="mp2" AudioBitrate="128000" Samplerate="44100" Channel="2" />
+    </Parameter>
+    <ColItem>
+        <AudioCodecName DefID="0" DefValue="mp2" />
+        <AudioBitrate DefID="0" DefValue="128000,160000,224000,384000,64000,96000" />
+        <SampleRate DefID="0" DefValue="44100,48000" />
+        <Channel DefID="1" DefValue="1,2" />
+    </ColItem>
+</Profile>

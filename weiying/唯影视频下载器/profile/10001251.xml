@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Profile DefID="10001251" DefName="Motorola ROKR E6(*.3gp)" DefType="0" DeviceName="none" Enabled="1" Comment="3GP Video profile optimized for Motorola ROKR E6">
+    <Parameter FileExt=".3gp" AVInclude="0" AVNeed="0" AVStyle="0" Format="3gp" ExporterName="FFExporter">
+        <VideoParam VideoCodecName="h263" FourCC="" Tolerance="4000" Width="176" Height="144" FrameRate="15.000000" VideoBitrate="160" />
+        <AudioParam AudioCodecName="amr_nb" AudioBitrate="12200" Samplerate="8000" Channel="1" />
+        <ParameterEx />
+    </Parameter>
+    <ColItem>
+        <Size DefID="1" DefValue="128*96,176*144" />
+        <FrameRate DefID="1" DefValue="12,15" />
+        <VideoBitrate DefID="2" DefValue="96,128,160,256" />
+        <AudioBitrate DefID="7" DefValue="4750,5150,5900,6700,7400,7950,10200,12200" />
+        <SampleRate DefID="0" DefValue="8000" />
+        <Channel DefID="0" DefValue="1" />
+        <AudioCodecName DefID="0" DefValue="amr_nb" />
+        <VideoCodecName DefID="0" DefValue="h263,xvid" />
+    </ColItem>
+</Profile>

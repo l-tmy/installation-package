@@ -1,0 +1,5 @@
+<AVPolicy>
+<p f="flv" i="FLVImporter" />
+<p f="mov,mp4,m4a,3gp,3g2,mj2" i="QTImporter" a="qdm2" />
+<p f="asf" i="DShowImporter" p="win32" />
+</AVPolicy>

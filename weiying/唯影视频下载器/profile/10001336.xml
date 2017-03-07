@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Profile DefID="10001336" DefName="MPEG-1(*.mpg)" DeviceName="" Enabled="0" DefType="0" Comment="MPEG-1 Video for PowerPoint">
+    <Parameter FileExt=".mpg" Format="mpeg" ExporterName="FFExporter" AVInclude="0" AVNeed="0" AVStyle="0">
+        <AudioParam AudioCodecName="mp2" AudioBitrate="128000" Samplerate="44100" Channel="2" />
+        <VideoParam VideoCodecName="mpeg1video" Tolerance="4000" Width="0" Height="0" FrameRate="30.000000" VideoBitrate="2" />
+    </Parameter>
+    <ColItem>
+        <AudioCodecName DefID="0" DefValue="mp2" />
+        <AudioBitrate DefID="0" DefValue="128000,160000,224000,64000,96000" />
+        <SampleRate DefID="0" DefValue="44100,48000" />
+        <Channel DefID="1" DefValue="1,2" />
+        <VideoCodecName DefID="0" DefValue="mpeg1video" />
+        <Size DefID="0" DefValue="original,320*240,320*480,352*288,480*320,480*360,640*480,720*480,720*576" />
+        <FrameRate DefID="4" DefValue="23.97,24,25,29.97,30" />
+        <VideoBitrate DefID="2" DefValue="original,1,2,3,1500,2000,2500" />
+    </ColItem>
+</Profile>

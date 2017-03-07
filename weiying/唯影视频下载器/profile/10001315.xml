@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Profile DefID="10001315" DefName="WMV3 (WMV9)(*.wmv)" DeviceName="" Enabled="0" DefType="0" Comment="High quality wmv with VC-1 codec">
+    <Parameter FileExt=".wmv" Format="asf" ExporterName="FFExporter" AVInclude="0" AVNeed="0" AVStyle="0">
+        <AudioParam AudioCodecName="wmav2" AudioBitrate="256000" Samplerate="44100" Channel="2" />
+        <VideoParam VideoCodecName="wmv3" Tolerance="4000" Width="0" Height="0" FrameRate="25.000000" VideoBitrate="2" />
+    </Parameter>
+    <ColItem>
+        <AudioCodecName DefID="1" DefValue="wmav1,wmav2" />
+        <AudioBitrate DefID="5" DefValue="64000,96000,128000,160000,192000,256000" />
+        <SampleRate DefID="2" DefValue="22050,32000,44100,48000" />
+        <Channel DefID="1" DefValue="1,2" />
+        <VideoCodecName DefID="2" DefValue="wmv1,wmv2,wmv3" />
+        <Size DefID="0" DefValue="original,160*128" />
+        <FrameRate DefID="4" DefValue="original,20,23.97,24,25,29.97,30" />
+        <VideoBitrate DefID="2" DefValue="original,1,2,3,128,160,256,700,768,96" />
+    </ColItem>
+</Profile>

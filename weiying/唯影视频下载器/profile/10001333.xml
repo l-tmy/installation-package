@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Profile DefID="10001333" DefName="F4V (*.f4v)" DeviceName="" Enabled="1" DefType="0" Comment="A kind of HD flash video format coding with H.264">
+    <Parameter FileExt=".f4v" Format="mp4" ExporterName="FFExporter" AVInclude="0" AVNeed="0" AVStyle="0">
+        <AudioParam AudioCodecName="aac" AudioBitrate="96000" Samplerate="48000" Channel="2" />
+        <VideoParam VideoCodecName="h264" Tolerance="4000" Width="640" Height="480" FrameRate="0.000000" VideoBitrate="2" />
+    </Parameter>
+    <ColItem>
+        <AudioCodecName DefID="0" DefValue="aac" />
+        <AudioBitrate DefID="1" DefValue="64000,96000,128000,160000,192000,256000" />
+        <SampleRate DefID="3" DefValue="22050,32000,44100,48000" />
+        <Channel DefID="1" DefValue="1,2" />
+        <VideoCodecName DefID="0" DefValue="h264" />
+        <Size DefID="7" DefValue="original,240*160,320*240,480*272,480*320,480*368,512*384,640*480" />
+        <FrameRate DefID="0" DefValue="original,12,15,20,23.97,24,25,29.97,30" />
+        <VideoBitrate DefID="2" DefValue="original,1,2,3,1500,256,384,512,640,768,900" />
+    </ColItem>
+</Profile>

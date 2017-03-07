@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Profile DefID="10001373" DefName="Zune HD WMV Video(*.wmv)" DeviceName="" Enabled="0" DefType="0" Comment="WMV Video for Zune HD">
+    <Parameter FileExt=".wmv" Format="asf" ExporterName="FFExporter" AVInclude="0" AVNeed="0" AVStyle="0">
+        <AudioParam AudioCodecName="wmav2" AudioBitrate="384000" Samplerate="44100" Channel="2" />
+        <VideoParam VideoCodecName="wmv3" Tolerance="4000" Width="1280" Height="720" FrameRate="29.970000" VideoBitrate="2" />
+    </Parameter>
+    <ColItem>
+        <AudioCodecName DefID="1" DefValue="wmav1,wmav2" />
+        <AudioBitrate DefID="4" DefValue="128000,160000,192000,256000,384000,64000,96000" />
+        <SampleRate DefID="2" DefValue="22050,32000,44100,48000" />
+        <Channel DefID="1" DefValue="1,2" />
+        <VideoCodecName DefID="0" DefValue="wmv3" />
+        <Size DefID="1" DefValue="original,1280*720,720*480,720*576" />
+        <FrameRate DefID="3" DefValue="original,20,25,29.97,30" />
+        <VideoBitrate DefID="2" DefValue="original,1,2,3,10000,2000,3000,4000,6000" />
+    </ColItem>
+</Profile>

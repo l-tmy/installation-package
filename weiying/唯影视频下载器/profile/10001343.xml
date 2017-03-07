@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Profile DefID="10001343" DefName="MPEG-PS Video Remux(*.mpg)" DeviceName="none" Enabled="1" DefType="0" Comment="Directly remux to MPEG-PS format">
+    <Parameter FileExt=".mpg" Format="vob" ExporterName="FFExporter" AVInclude="0" AVNeed="0" AVStyle="1">
+        <AudioParam AudioCodecName="original" AudioBitrate="0" Samplerate="0" Channel="0" />
+        <VideoParam VideoCodecName="original" Width="0" Height="0" FrameRate="0.000000" VideoBitrate="0" Tolerance="0" />
+        <ParameterEx remux="1" />
+    </Parameter>
+    <ColItem>
+        <AudioCodecName DefID="0" DefValue="original" />
+        <AudioBitrate DefID="0" DefValue="0,128000,160000,224000,320000,64000,96000" />
+        <SampleRate DefID="0" DefValue="0,22050,32000,44100,48000" />
+        <Channel DefID="0" DefValue="0,1,2,6" />
+        <VideoCodecName DefID="0" DefValue="original" />
+        <Size DefID="1" DefValue="original,0*0,1280*720,320*240,320*480,352*288,480*320,480*368,640*480,720*480" />
+        <FrameRate DefID="1" DefValue="original,0,23.97,24,25,29.97,30" />
+        <VideoBitrate DefID="0" DefValue="0,1200,1500,2000,2500,4000,5000,6000,8000,9000,9800" />
+    </ColItem>
+</Profile>

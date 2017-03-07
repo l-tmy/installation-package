@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Profile DefID="10001026" DefName="PS3 Video(720P) MPEG-4(*.mp4)" DefType="0" DeviceName="PSP" Enabled="1" Comment="H.264 Video profile optimized for Sony PS3(720P)">
+    <Parameter FileExt=".mp4" AVInclude="0" AVNeed="0" AVStyle="0" ExporterName="FFExporter" Format="psp">
+        <VideoParam VideoCodecName="h264" FourCC="" Tolerance="4000" Width="1280" Height="720" FrameRate="30.000000" VideoBitrate="2000" />
+        <AudioParam AudioCodecName="aac" AudioBitrate="128000" Samplerate="44100" Channel="2" />
+        <ParameterEx video_encoding_level="13" />
+    </Parameter>
+    <ColItem>
+        <Size DefID="2" DefValue="original,720*480,1280*720,1920*1080" />
+        <FrameRate DefID="6" DefValue="original,20,23.97,24,25,29.97,30" />
+        <VideoBitrate DefID="2" DefValue="1200,1500,2000,2500,3000" />
+        <AudioBitrate DefID="2" DefValue="64000,96000,128000,160000" />
+        <SampleRate DefID="2" DefValue="22050,32000,44100,48000" />
+        <Channel DefID="1" DefValue="1,2" />
+        <AudioCodecName DefID="0" DefValue="aac" />
+        <VideoCodecName DefID="0" DefValue="h264" />
+    </ColItem>
+</Profile>

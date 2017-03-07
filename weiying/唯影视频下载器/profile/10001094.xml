@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Profile DefID="10001094" DefName="AC3 - Dolby Digital AC-3(*.ac3)" DefType="0" DeviceName="none" Enabled="1" Comment="Digital audio format,support multi-channels and stereo sound">
+    <Parameter FileExt=".ac3" AVInclude="1" AVNeed="0" AVStyle="0" ExporterName="FFExporter" Format="ac3">
+        <AudioParam AudioCodecName="ac3" AudioBitrate="448000" Samplerate="48000" Channel="2" />
+        <ParameterEx />
+    </Parameter>
+    <ColItem>
+        <AudioBitrate DefID="9" DefValue="128000,160000,192000,256000,320000,384000,512000,64000,96000,448000,576000" />
+        <SampleRate DefID="2" DefValue="32000,44100,48000" />
+        <Channel DefID="0" DefValue="2,6" />
+        <AudioCodecName DefID="0" DefValue="ac3" />
+    </ColItem>
+</Profile>

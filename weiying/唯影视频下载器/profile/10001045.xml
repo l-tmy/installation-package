@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Profile DefID="10001045" DefName="FLV-Flash Video Format(*.flv)" DefType="0" DeviceName="" Enabled="1" Comment="Widely used network Video streaming media format(Flash Video Files)">
+    <Parameter FileExt=".flv" AVInclude="0" AVNeed="0" AVStyle="0" ExporterName="FFExporter" Format="flv">
+        <VideoParam VideoCodecName="flv" FourCC="" Tolerance="4000" Width="320" Height="240" FrameRate="0.000000" VideoBitrate="2" />
+        <AudioParam AudioCodecName="mp3" AudioBitrate="96000" Samplerate="44100" Channel="2" />
+        <ParameterEx />
+    </Parameter>
+    <ColItem>
+        <Size DefID="2" DefValue="original,240*160,320*240,480*272,480*320,480*368,512*384,640*480" />
+        <FrameRate DefID="0" DefValue="original,12,15,20,23.97,24,25,29.97,30" />
+        <VideoBitrate DefID="2" DefValue="original,1,2,3,1500,256,384,512,640,768,900" />
+        <AudioBitrate DefID="6" DefValue="128000,160000,192000,256000,320000,64000,96000" />
+        <SampleRate DefID="1" DefValue="22050,44100" />
+        <Channel DefID="1" DefValue="1,2" />
+        <AudioCodecName DefID="0" DefValue="mp3" />
+        <VideoCodecName DefID="0" DefValue="flv" />
+    </ColItem>
+</Profile>

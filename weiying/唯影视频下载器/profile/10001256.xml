@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Profile DefID="10001256" DefName="LG Prada KE850(*.mp4)" DefType="0" DeviceName="none" Enabled="1" Comment="MPEG-4 Video profile optimized for LG Prada KE850">
+    <Parameter FileExt=".mp4" AVInclude="0" AVNeed="0" AVStyle="0" Format="mp4" ExporterName="FFExporter">
+        <VideoParam VideoCodecName="xvid" FourCC="" Tolerance="4000" Width="176" Height="144" FrameRate="15.000000" VideoBitrate="160" />
+        <AudioParam AudioCodecName="aac" AudioBitrate="64000" Samplerate="22050" Channel="2" />
+        <ParameterEx />
+    </Parameter>
+    <ColItem>
+        <Size DefID="1" DefValue="original,176*144,320*240" />
+        <FrameRate DefID="1" DefValue="12,15" />
+        <VideoBitrate DefID="2" DefValue="96,128,160,256" />
+        <AudioBitrate DefID="1" DefValue="32000,64000,96000" />
+        <SampleRate DefID="0" DefValue="22050" />
+        <Channel DefID="1" DefValue="1,2" />
+        <AudioCodecName DefID="0" DefValue="aac" />
+        <VideoCodecName DefID="0" DefValue="xvid" />
+    </ColItem>
+</Profile>

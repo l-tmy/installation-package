@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Profile DefID="10001098" DefName="OGG - Ogg Vorbis Audio(*.ogg)" DefType="0" DeviceName="none" Enabled="1" Comment="Audio format,support multi-channels with fine sound quality">
+    <Parameter FileExt=".ogg" AVInclude="1" AVNeed="0" AVStyle="0" ExporterName="FFExporter" Format="ogg">
+        <AudioParam AudioCodecName="vorbis" AudioBitrate="128000" Samplerate="44100" Channel="2" />
+        <ParameterEx />
+    </Parameter>
+    <ColItem>
+        <AudioBitrate DefID="2" DefValue="64000,96000,128000,160000,192000,256000" />
+        <SampleRate DefID="1" DefValue="32000,44100,48000" />
+        <Channel DefID="0" DefValue="2" />
+        <AudioCodecName DefID="0" DefValue="vorbis" />
+    </ColItem>
+</Profile>
